@@ -154,7 +154,7 @@ def setTree():
     l1 = QTreeWidgetItem(["S重要視すること", "安全性", "30万Node"])
     l2 = QTreeWidgetItem(["経費", "profit", "factor"])
     for i in range(3):
-        l1_child = QTreeWidgetItem(["Child A" + str(i), "Child B" + str(i), "Child C" + str(i)])
+        l1_child = QTreeWidgetItem(["コンセプト" + str(i), "Child B" + str(i), "Child C" + str(i)])
         l1.addChild(l1_child)
 
     for j in range(2):
