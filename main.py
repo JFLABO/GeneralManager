@@ -151,8 +151,8 @@ def hello(thr_no):
   print(thr_no)
 
 def setTree():
-    l1 = QTreeWidgetItem(["String A", "String B", "String C"])
-    l2 = QTreeWidgetItem(["String AA", "String BB", "String CC"])
+    l1 = QTreeWidgetItem(["S重要視すること", "安全性", "30万Node"])
+    l2 = QTreeWidgetItem(["経費", "profit", "factor"])
     for i in range(3):
         l1_child = QTreeWidgetItem(["Child A" + str(i), "Child B" + str(i), "Child C" + str(i)])
         l1.addChild(l1_child)
