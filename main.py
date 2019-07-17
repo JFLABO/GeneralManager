@@ -128,7 +128,7 @@ def setTree02():
     ]
     
     model = QtGui.QStandardItemModel()
-    model.setHorizontalHeaderLabels(['Name'])
+    model.setHorizontalHeaderLabels(['Name　(AI) AutoDetect'])
     #model.setHorizontalHeaderLabels(['Name', 'dbID'])
     #win.treeView.header().setDefaultSectionSize(180)
     addItems(model, data)
