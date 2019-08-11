@@ -1,5 +1,14 @@
 # GeneralManager
-git clone https://github.com/JFLABO/GeneralManager.git
 
-Please be expanded for your idea.[GNU] EUR-JP
-FUGAKU
+hello everyone
+
+nice too meet you
+
+フレームワーク作成
+初期テスト　レビュー
+ロジックの分離
+データの分離
+
+問題
+　特定のマシンでストップする
+
