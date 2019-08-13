@@ -127,9 +127,12 @@ def hello1(win):
     win.label_2.setText(str1+str3+str2)
     #hello("hello1")
 
-    #目標時刻    
-    dt1 = datetime.datetime(year=2019, month=8, day=15, hour=0)
-    
+    #目標時刻
+    f = open('data/targetdate.json', 'r')
+    jsonData = json.load(f)
+    f.close()
+    dt1 = datetime.datetime(int(jsonData["year"]), int(jsonData["month"]),int(jsonData["day"]),int(jsonData["hour"]))
+    win.label.setText(jsonData["mes"])    
     #日カウント
     tdt=dt1-now
     #時間カウント

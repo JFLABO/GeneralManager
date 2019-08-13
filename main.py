@@ -12,7 +12,7 @@ import datetime
 import threading
 import time
 from lib import functions
- 
+from lib import gl
 app = QtWidgets.QApplication([])
  
 win = uic.loadUi("ui/ChiMeRa.ui") #specify the location of your .ui file
@@ -36,5 +36,5 @@ def scheduler():
 
 t = threading.Thread(target = scheduler)
 t.start()
-
+gl.main()
 sys.exit(app.exec())

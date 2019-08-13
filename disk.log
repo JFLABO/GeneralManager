@@ -1,0 +1,13 @@
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.4G     0  3.4G   0% /dev
+tmpfs           692M  9.8M  682M   2% /run
+/dev/sda1        42G   36G  4.0G  90% /
+tmpfs           3.4G   59M  3.4G   2% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           3.4G     0  3.4G   0% /sys/fs/cgroup
+/dev/sda5       5.4G   12M  5.1G   1% /mount/server
+tmpfs           692M  124K  691M   1% /run/user/1008
+/dev/sdb2       716K  688K   28K  97% /media/toki/Kali Live
+/dev/sdb3        57G   18G   39G  32% /media/toki/MitsubishiUSB
+/dev/sr0         35M   35M     0 100% /media/toki/Data 2019-08-11~
+/dev/sda6        73G   20G   50G  28% /labodisk
