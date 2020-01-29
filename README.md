@@ -15,3 +15,7 @@ nice too meet you
 環境設定
 　pip install PyOpenGL PyOpenGL_accelerate
 　pip install glfw
+
+
+UnicodeDecodeError: 'cp932' codec can't decode byte 0x84 in position 21: illegal multibyte sequence
+data/target.jsonを書き換えてください。文字コードの変更
