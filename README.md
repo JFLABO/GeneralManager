@@ -12,3 +12,6 @@ nice too meet you
 問題
 　特定のマシンでストップする
 
+環境設定
+　pip install PyOpenGL PyOpenGL_accelerate
+　pip install glfw
